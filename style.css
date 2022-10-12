@@ -1,0 +1,70 @@
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+/*reseteando la etiqueta de body, porque viene con 
+un margen que no queremos y dandole un gris suave para
+que las tarjetas resalten del fondo*/
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+/* asignar un color a las cabeceras y el texto que esta dentro
+se encuentre centrado*/
+header {
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+/*centrando texto alineado a la izquierda*/
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+/*tomando el contenido de los post para dejarlo centrado pero que
+el texto se encuentro ubicado a la izquierda*/
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+/*Corregir post y centrar texto en las tarjetas */
+section article {
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin: 1rem;
+    border: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+/*mostrando sombra cuando pasamos el mouse por encima y que muestre que se estan
+levantando las tarjetas*/
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+/*separando titulos y parrafos de los bordes*/
+section article h2, section article p {
+    margin: 1rem;
+}
+footer {
+    background-color: black;
+    padding: 3rem;
+    color: white;
+}
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+/*cambiando el color cuando pasamos el mouse por encima*/
+footer a:hover{
+    color: cornflowerblue;
+}
+
